@@ -1,3 +1,14 @@
+<?php
+
+if(!isset($_COOKIE['flag'])){
+    
+    header('location: ../login.html');
+    
+}
+
+?>
+
+
 <center>
 	<form>
 		<table border="0" cellspacing="0" cellpadding="5">
@@ -13,7 +24,7 @@
 						<input type="password"/>								
 						<hr />
 						<input type="button" value="Change" />     
-						<a href="Admin'sHomePage.html">Home</a>						
+						<a href="home.html">Home</a>						
 					</fieldset>
 				</td>
 			</tr>
